@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "homework-oop"
+version = "0.1.0"
+description = ""
+authors = ["Valentina Timoshenko <alterioforesty@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "homework_oop"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
